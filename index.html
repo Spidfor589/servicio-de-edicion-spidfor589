@@ -6,6 +6,7 @@
     
     <!-- SEO Principal -->
     <title>Spidfor Studio | Edición de Video Profesional - YouTube, Redes y Corporativo</title>
+    <link rel="icon" href="favicon.png" type="image/png">
     <meta name="description" content="Servicio profesional de edición de video para YouTube, redes sociales y contenido corporativo. Solicita tu proyecto ahora y recibe respuesta en 48h.">
     <meta name="keywords" content="edición de video, editor de video, edición YouTube, edición TikTok, edición Instagram, video corporativo, motion graphics, postproducción, Spidfor Studio, editor freelance">
     <meta name="author" content="Spidfor Studio">
@@ -126,15 +127,14 @@
             background-clip: text;
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.8rem;
         }
 
-        .logo svg {
-            width: 32px;
-            height: 32px;
-            fill: none;
-            stroke: var(--primary-light);
-            stroke-width: 2;
+        .logo-img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+            filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.4));
         }
 
         .nav-links {
@@ -834,7 +834,7 @@
     <!-- Navigation -->
     <nav id="navbar">
         <div class="logo">
-            <svg viewBox="0 0 24 24"><path d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <img src="favicon.png" alt="Spidfor Studio Logo" class="logo-img">
             Spidfor Studio
         </div>
         <ul class="nav-links" id="navLinks">
